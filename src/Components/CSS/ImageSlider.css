@@ -1,0 +1,41 @@
+*{
+    position: relative;
+}
+.carousel-inner{
+    top:50px;
+
+}
+.carousel-inner .card{
+    border: 0px;
+   margin:10px;
+left:50px;
+width: 90%;
+margin-bottom:120px ;
+}
+.carousel-inner .card .card-body{
+    margin-top: 50px;
+ 
+}
+.carousel-inner .card .card-body #button{
+   
+   top: 40px;
+   background-color: transparent;
+   color: red;
+   border: 2px solid  red;
+}
+.carousel-inner .card .card-body #button:hover{
+    background-color: red;
+    color:white;
+}
+.carousel-inner .card .card-text{
+    margin: auto;
+
+}
+.carousel-inner .card .card-title{
+font-size: 2.3rem;
+font-weight: bold;
+}
+.carousel-item .card img{
+    width: 90%;
+   
+}

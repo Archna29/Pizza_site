@@ -1,0 +1,56 @@
+.Pizza_container{
+    width: 90%;
+    height: auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: relative;
+margin: auto;
+   top:10px;
+    text-align: center;
+margin-bottom:60px;
+}
+.Pizza_container .card{
+    width: 90%;
+    border: 0px;
+}
+.infoContainer .card{
+    
+    width: 50%;
+}
+
+.infoContainer .card .card-title{
+margin: auto;
+    color:white;
+    width: 50%;
+    position: relative;
+    top:20px;
+    margin-bottom: 20px;
+   
+}
+
+.Pizza_container .row .card{
+    position: relative;
+    left:25px;
+}
+.Pizza_container .row .card .card-title{
+   background: none;
+}
+.Pizza_container #button{
+    background: transparent;
+    color:red;
+    border:2px solid red;
+position: relative;
+  margin-top: 40px;
+  margin-bottom: 50px;
+ left:auto;
+}
+.Pizza_container #button:hover{
+    color:white;
+    background-color: red;
+
+}
+@media screen and (max-width: 1200px) {
+    .Pizza_container{
+width: 1300px;
+    }
+}
